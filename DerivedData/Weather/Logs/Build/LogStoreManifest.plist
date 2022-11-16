@@ -5,6 +5,41 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>19C96D46-44BE-4829-A105-64E1CD75F61B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>19C96D46-44BE-4829-A105-64E1CD75F61B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Weather project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Weather</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Weather</string>
+			<key>timeStartedRecording</key>
+			<real>690291743.38197005</real>
+			<key>timeStoppedRecording</key>
+			<real>690291746.25823402</real>
+			<key>title</key>
+			<string>Build Weather</string>
+			<key>uniqueIdentifier</key>
+			<string>19C96D46-44BE-4829-A105-64E1CD75F61B</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

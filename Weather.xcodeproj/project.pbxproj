@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2579D74D29250112007E2E76 /* city.night.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2579D74C29250112007E2E76 /* city.night.gif */; };
+		2579D74F2925019A007E2E76 /* city.day.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2579D74E2925019A007E2E76 /* city.day.gif */; };
 		259473E52924E95800D48706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259473E42924E95800D48706 /* AppDelegate.swift */; };
 		259473E72924E95800D48706 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259473E62924E95800D48706 /* SceneDelegate.swift */; };
 		259473E92924E95800D48706 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259473E82924E95800D48706 /* ViewController.swift */; };
@@ -16,6 +18,9 @@
 		259473FC2924E95C00D48706 /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259473FB2924E95C00D48706 /* WeatherTests.swift */; };
 		259474062924E95C00D48706 /* WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259474052924E95C00D48706 /* WeatherUITests.swift */; };
 		259474082924E95C00D48706 /* WeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259474072924E95C00D48706 /* WeatherUITestsLaunchTests.swift */; };
+		259474182924EB2800D48706 /* gifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259474172924EB2800D48706 /* gifLoader.swift */; };
+		2594741A2924F47A00D48706 /* city.gif in Resources */ = {isa = PBXBuildFile; fileRef = 259474192924F47A00D48706 /* city.gif */; };
+		2594741C2924F49200D48706 /* night.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2594741B2924F49200D48706 /* night.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2579D74C29250112007E2E76 /* city.night.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = city.night.gif; sourceTree = "<group>"; };
+		2579D74E2925019A007E2E76 /* city.day.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = city.day.gif; sourceTree = "<group>"; };
 		259473E12924E95800D48706 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		259473E42924E95800D48706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		259473E62924E95800D48706 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		259474012924E95C00D48706 /* WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		259474052924E95C00D48706 /* WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUITests.swift; sourceTree = "<group>"; };
 		259474072924E95C00D48706 /* WeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		259474172924EB2800D48706 /* gifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifLoader.swift; sourceTree = "<group>"; };
+		259474192924F47A00D48706 /* city.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = city.gif; sourceTree = "<group>"; };
+		2594741B2924F49200D48706 /* night.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = night.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +109,16 @@
 		259473E32924E95800D48706 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				259474162924EB0400D48706 /* Model */,
+				259474152924EAF100D48706 /* View */,
+				259474142924EAE800D48706 /* Controller */,
+				259473ED2924E95B00D48706 /* Assets.xcassets */,
+				2579D74E2925019A007E2E76 /* city.day.gif */,
+				2579D74C29250112007E2E76 /* city.night.gif */,
+				2594741B2924F49200D48706 /* night.gif */,
+				259474192924F47A00D48706 /* city.gif */,
 				259473E42924E95800D48706 /* AppDelegate.swift */,
 				259473E62924E95800D48706 /* SceneDelegate.swift */,
-				259473E82924E95800D48706 /* ViewController.swift */,
-				259473EA2924E95800D48706 /* Main.storyboard */,
-				259473ED2924E95B00D48706 /* Assets.xcassets */,
 				259473EF2924E95B00D48706 /* LaunchScreen.storyboard */,
 				259473F22924E95B00D48706 /* Info.plist */,
 			);
@@ -125,6 +140,30 @@
 				259474072924E95C00D48706 /* WeatherUITestsLaunchTests.swift */,
 			);
 			path = WeatherUITests;
+			sourceTree = "<group>";
+		};
+		259474142924EAE800D48706 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				259473E82924E95800D48706 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		259474152924EAF100D48706 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				259473EA2924E95800D48706 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		259474162924EB0400D48706 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				259474172924EB2800D48706 /* gifLoader.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +270,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2579D74F2925019A007E2E76 /* city.day.gif in Resources */,
 				259473F12924E95B00D48706 /* LaunchScreen.storyboard in Resources */,
+				2594741A2924F47A00D48706 /* city.gif in Resources */,
+				2594741C2924F49200D48706 /* night.gif in Resources */,
 				259473EE2924E95B00D48706 /* Assets.xcassets in Resources */,
 				259473EC2924E95800D48706 /* Main.storyboard in Resources */,
+				2579D74D29250112007E2E76 /* city.night.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +304,7 @@
 				259473E92924E95800D48706 /* ViewController.swift in Sources */,
 				259473E52924E95800D48706 /* AppDelegate.swift in Sources */,
 				259473E72924E95800D48706 /* SceneDelegate.swift in Sources */,
+				259474182924EB2800D48706 /* gifLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
