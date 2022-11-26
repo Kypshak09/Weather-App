@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>1A233E3C-7982-469B-AF6A-0111CBDCE817</key>
+		<key>7A01F173-F14D-4B9A-8B3C-EC27D8B9DDE2</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1A233E3C-7982-469B-AF6A-0111CBDCE817.xcactivitylog</string>
+			<string>7A01F173-F14D-4B9A-8B3C-EC27D8B9DDE2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,47 @@
 			<key>signature</key>
 			<string>Run Weather</string>
 			<key>timeStartedRecording</key>
-			<real>690291746.26135194</real>
+			<real>691147550.24784994</real>
 			<key>timeStoppedRecording</key>
-			<real>690292662.62319899</real>
+			<real>691147679.01655304</real>
 			<key>title</key>
 			<string>Run Weather</string>
 			<key>uniqueIdentifier</key>
-			<string>1A233E3C-7982-469B-AF6A-0111CBDCE817</string>
+			<string>7A01F173-F14D-4B9A-8B3C-EC27D8B9DDE2</string>
+		</dict>
+		<key>B0FB950B-92DA-4B63-AF85-C046C5C51FFA</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B0FB950B-92DA-4B63-AF85-C046C5C51FFA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Weather project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Weather</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Weather</string>
+			<key>timeStartedRecording</key>
+			<real>690807391.74941599</real>
+			<key>timeStoppedRecording</key>
+			<real>690810638.26750195</real>
+			<key>title</key>
+			<string>Run Weather</string>
+			<key>uniqueIdentifier</key>
+			<string>B0FB950B-92DA-4B63-AF85-C046C5C51FFA</string>
 		</dict>
 	</dict>
 </dict>
